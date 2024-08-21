@@ -84,3 +84,10 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 # recipe
+
+
+# To migrate the database, execute the below command:
+npx prisma migrate dev --name init
+
+# To seed the database, execute the following command:
+npx prisma db seed
